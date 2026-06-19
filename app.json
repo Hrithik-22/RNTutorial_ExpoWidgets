@@ -37,7 +37,23 @@
           }
         }
       ],
-      "expo-widgets"
+      [
+        "expo-widgets",
+        {
+          "widgets": [
+            {
+              "name": "MyWidget",
+              "displayName": "My Widget",
+              "description": "A sample home screen widget",
+              "supportedFamilies": [
+                "systemSmall",
+                "systemMedium",
+                "systemLarge"
+              ]
+            }
+          ]
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,
